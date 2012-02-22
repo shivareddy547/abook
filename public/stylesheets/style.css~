@@ -1,0 +1,660 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 3.0 License
+
+Name       : Individual
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20120125
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: underline;
+	color: #C33C13;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	background: blue;
+	font-size: 13pt;
+	line-height: 1.75em;
+	color: #CEE1E6;
+}
+
+body,input {
+	font-family: Tahoma, sans-serif;
+}
+
+br.clearfix {
+	clear: both;
+}
+
+h1,h2,h3,h4 {
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+
+h2 {
+	font-size: 2.25em;
+}
+
+h2,h3,h4 {
+	margin-bottom: 25px;
+	
+	font-family: Bitter, serif;
+}
+
+h3 {
+	font-size: 1.5em;
+color:blue;
+}
+
+h4 {
+	font-size: 1.25em;
+}
+
+img.alignleft {
+	margin: 5px 20px 20px 0;
+	float: left;
+}
+
+img.aligntop {
+	margin: 5px 0 20px 0;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin-bottom: 1.5em;
+}
+
+ul h4 {
+	margin-bottom: 0.35em;
+}
+
+#content {
+	padding: 0;
+	margin: 0 0 0 50px;
+	width: 500px;
+}
+
+#footer {
+	text-align: center;
+	padding: 40px 0 0 0;
+	margin: 0 0 85px 0;
+}
+
+#footer a {
+	color: #CEE1E6;
+}
+
+#header {
+	padding: 45px;
+	color: #FFFFFF;
+	border-bottom: solid 1px #8E4602;
+	position: relative;
+	background: #934B07 url(images/img02.gif) repeat-y top left;
+	height: 140px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#logo {
+	left: 90px;
+	bottom: 0;
+	line-height: 168px;
+	height: 168px;
+	position: absolute;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#logo h1 {
+	font-family: Bitter, serif;
+	font-size: 3.25em;
+}
+
+#menu {
+	font-family: Bitter, serif;
+	height: 62px;
+	left: 0;
+	top: 0;
+	position: absolute;
+	background: #B42D04 url(images/img03.gif) repeat-y top left;
+	border-top: solid 1px #F06940;
+	border-bottom: solid 1px #CF8743;
+	width: 890px;
+	padding: 0 45px 0 45px;
+	line-height: 62px;
+	margin: 0 0 45px 0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#menu a {
+	letter-spacing: -1px;
+	text-decoration: none;
+	text-transform: lowercase;
+	color: #FFFFFF;
+}
+
+#menu ul {
+	list-style: none;
+}
+
+#menu ul li {
+	padding: 0 20px 0 20px;
+	display: inline;
+}
+
+#menu ul li.first {
+	padding-left: 0;
+}
+
+#page {
+	border-bottom: solid 1px #DCDCDC;
+	background: #FFFFFF;
+	margin: 0 0 0 0;
+	position: relative;
+	padding: 45px 45px 0px 45px;
+	color: #606060;
+	width: 890px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#page .section-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+#page .section-list li {
+	padding: 25px 0 25px 0;
+	clear: both;
+}
+
+#page a {
+	color: #B42D04;
+}
+
+#page h2, #page h3, #page h4 {
+	color: #242424;
+}
+
+#page strong {
+	color: #171717;
+}
+
+#page ul {
+	list-style: none;
+}
+
+#page ul li {
+	border-top: solid 1px #C9C9C9;
+	padding: 15px 0 15px 0;
+}
+
+#page ul li.first {
+	border-top: 0;
+	padding-top: 0;
+}
+
+#post1 {
+	width: 850px;
+	overflow: hidden;
+	margin: 0 0 35px 0;
+}
+
+
+
+
+#search {
+	bottom: 0;
+	right: 65px;
+	height: 25px;
+	position: absolute;
+	line-height: 168px;
+}
+
+#search input.form-submit {
+	border-bottom: solid 1px #BE370E;
+	margin-left: 1em;
+	padding: 10px;
+	border: 0;
+	color: #FFFFFF;
+	font-family: Bitter, serif;
+	background: #C33C13;
+size:20;
+}
+
+#search input.form-text {
+	padding: 10px;
+	border: 0;
+	border-radius: 7px;
+	border-top: solid 1px #631B00;
+	color: #606060;
+size:20;
+}
+
+#search input.blank {
+	color: #AAAAAA;
+	font-style: italic;
+size:20;
+
+}
+
+
+
+
+
+.shiva1 {
+	top: 0%;
+	right: 15px;
+	height: 10px;
+	position: relative;
+	line-height: 120px;
+}
+
+
+.bookname{
+top:0;
+right:60px;
+width:50px;
+color:green;
+}
+
+
+
+
+
+
+
+#sh{
+background: white;
+	font-size: 13pt;
+	line-height: 1.75em;
+	color: black;
+width: 710px;
+
+bottom:50%;
+	margin: 50px 100px 0 2%;
+	position: relative;
+}
+
+
+#sh h6 { color:green;}
+
+#sh h3{ color:orange; }
+#sh h2{ color:red; }
+
+
+
+#image{
+
+width:710;
+height:500;
+margin: 50px 100px 0 2%;
+	position: relative;
+background: red;
+}
+.bookimg{
+
+width:150;
+height:100;
+top:0;
+left:0;
+	position: relative;
+
+}
+
+.bookname{
+
+
+
+top:0;
+left:350px;
+	position: relative;
+
+}
+
+desborder{
+width:700px;
+		border:1px solid #CCC;
+height:100px;
+		color: #317082;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sidebar h3 {
+
+
+color:blue;
+}
+
+
+#sidebar {
+position:relative;
+	width: 200px;
+	padding: 0;
+	float: left;
+}
+
+#wrapper {
+	width: 980px;
+	margin: 50px auto 0 auto;
+	position: relative;
+}
+
+.sh1
+{
+left:0
+width:20;
+height:20;
+top:0;
+}
+.sh1
+{
+width:30;
+height:30;
+top:0;
+}
+
+#img{
+position:relative;
+top:0;
+left:0;
+margin:5%;
+}
+
+.name{
+position:relative;
+top:0;
+
+margin:5%;
+}
+
+
+
+.withborder{
+position:relative;
+ border: 2px solid;
+margin: 4px 4px 4px 4px;
+        padding: 5px 0px 5px 5px; /* Note 0px padding right */
+        list-style: none             /* no glyphs before a list item */
+                                     /* No borders set */
+ }
+
+
+ 
+
+
+
+
+
+ul.svertical{
+width: 200px; /* width of menu */
+overflow: auto;
+background: black; /* background of menu */
+margin: 0;
+padding: 0;
+padding-top: 7px; /* top padding */
+list-style-type: none;
+}
+
+ul.svertical li{
+text-align: right; /* right align menu links */
+}
+
+ul.svertical li a{
+position: relative;
+display: inline-block;
+text-indent: 5px;
+overflow: hidden;
+background: rgb(127, 201, 68); /* initial background color of links */
+font: bold 16px Germand;
+text-decoration: none;
+padding: 5px;
+margin-bottom: 7px; /* spacing between links */
+color: black;
+-moz-box-shadow: inset -7px 0 5px rgba(114,114,114, 0.8); /* inner right shadow added to each link */
+-webkit-box-shadow: inset -7px 0 5px rgba(114,114,114, 0.8);
+box-shadow: inset -7px 0 5px rgba(114,114,114, 0.8);
+-moz-transition: all 0.2s ease-in-out; /* CSS3 transition of hover properties */
+-webkit-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+
+ul.svertical li a:hover{
+padding-right: 30px; /* add right padding to expand link horizontally to the left */
+color: black;
+background: rgb(153,249,75);
+-moz-box-shadow: inset -3px 0 2px rgba(114,114,114, 0.8); /* contract inner right shadow */
+-webkit-box-shadow: inset -3px 0 5px rgba(114,114,114, 0.8);
+box-shadow: inset -3px 0 5px rgba(114,114,114, 0.8);
+}
+
+ul.svertical li a:before{ /* CSS generated content: slanted right edge */
+content: "";
+position: absolute;
+left: 0;
+top: 0;
+border-style: solid; 
+border-width: 70px 0 0 20px; /* Play around with 1st and 4th value to change slant degree */
+border-color: transparent transparent transparent black; /* change black to match the background color of the menu UL */
+
+}
+
+
+
+/************************************Menu****************************************/
+
+div.bottombar{ /* bar that runs across the bottom of the menu */
+height: 10px;
+background: #1a1109;
+}
+
+ul.semiopaquemenu{ /* main menu UL */
+font: bold 14px Georgia ;
+width: 100%;
+background: #b1e958;
+padding: 11px 0 8px 0; /* padding of the 4 sides of the menu */
+margin: 0;
+text-align: left; /* set value to "left", "center", or "right" to align menu accordingly */
+}
+
+ul.semiopaquemenu li{
+display: inline;
+}
+
+ul.semiopaquemenu li a{
+color:black;
+padding: 6px 8px 6px 8px; /* padding of the 4 sides of each menu link */
+margin-right: 15px; /* spacing between each menu link */
+text-decoration: none;
+}
+
+ul.semiopaquemenu li a:hover, ul.semiopaquemenu li a.selected{
+color: black;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjgyIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMC4xNiIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); /* IE9+ SVG equivalent  of linear gradients */
+background: -moz-linear-gradient(top,  rgba(255,255,255,0.82) 0%, rgba(255,255,255,0.16) 100%); /* fade from white (0.82 opacty) to 0.16 opacity */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.82)), color-stop(100%,rgba(255,255,255,0.16)));
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+background: -o-linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+background: -ms-linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+background: linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1ffffff', endColorstr='#29ffffff',GradientType=0 );
+-moz-box-shadow: 0 0 5px #595959; /* CSS3 box shadows */
+-webkit-box-shadow: 0 0 5px #595959;
+box-shadow: 0 0 5px #595959;
+padding-top: 12px; /* large padding to get menu item to protrude upwards */
+padding-bottom: 20px; /* large padding to get menu item to protrude downwards */
+}
+
+
+
+
+
+
+p { border-bottom-style:  ; 
+border-bottom-color: green; 
+border-bottom-width: 2px;
+ border-right:50%;
+color:blue;}
+
+
+/***********************SOCIAL NETWORKS*********************************/
+
+
+p#socialicons img{ /* 1st set of icons. Rotate them 360deg onmouseover and out */
+-moz-transition: all 0.8s ease-in-out;
+-webkit-transition: all 0.8s ease-in-out;
+-o-transition: all 0.8s ease-in-out;
+-ms-transition: all 0.8s ease-in-out;
+transition: all 0.8s ease-in-out;
+}
+
+p#socialicons img:hover{
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+transform: rotate(360deg);
+}
+
+p#socialicons2 img{ /* 2nd set of icons. Rotate them 60deg onmouseover and out */
+-moz-transition: all 0.2s ease-in-out;
+-webkit-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+
+p#socialicons2 img:hover{
+-moz-transform: rotate(70deg);
+-webkit-transform: rotate(70deg);
+-o-transform: rotate(70deg);
+-ms-transform: rotate(70deg);
+transform: rotate(70deg);
+}
+
+p#socialicons3 img{ /* 3rd set of icons. Rotate them -360deg onmouseover ONLY. Note where the "transition prop is added */
+}
+
+p#socialicons3 img:hover{ 
+-moz-transition: all 0.5s ease-in-out;
+-webkit-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+-moz-transform: rotate(-360deg);
+-webkit-transform: rotate(-360deg);
+-o-transform: rotate(-360deg);
+-ms-transform: rotate(-360deg);
+transform: rotate(-360deg);
+}
+
+
+
+
+
+
+
+
+
+
+div.bottombar{ /* bar that runs across the bottom of the menu */
+height: 10px;
+background: #1a1109;
+}
+
+ul.semiopaquemenu{ /* main menu UL */
+font: bold 14px Georgia ;
+width: 100%;
+background: #b1e958;
+padding: 11px 0 8px 0; /* padding of the 4 sides of the menu */
+margin: 0;
+text-align: left; /* set value to "left", "center", or "right" to align menu accordingly */
+}
+
+ul.semiopaquemenu li{
+display: inline;
+}
+
+ul.semiopaquemenu li a{
+color:black;
+padding: 6px 8px 6px 8px; /* padding of the 4 sides of each menu link */
+margin-right: 15px; /* spacing between each menu link */
+text-decoration: none;
+}
+
+ul.semiopaquemenu li a:hover, ul.semiopaquemenu li a.selected{
+color: black;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjgyIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMC4xNiIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); /* IE9+ SVG equivalent  of linear gradients */
+background: -moz-linear-gradient(top,  rgba(255,255,255,0.82) 0%, rgba(255,255,255,0.16) 100%); /* fade from white (0.82 opacty) to 0.16 opacity */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.82)), color-stop(100%,rgba(255,255,255,0.16)));
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+background: -o-linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+background: -ms-linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+background: linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1ffffff', endColorstr='#29ffffff',GradientType=0 );
+-moz-box-shadow: 0 0 5px #595959; /* CSS3 box shadows */
+-webkit-box-shadow: 0 0 5px #595959;
+box-shadow: 0 0 5px #595959;
+padding-top: 12px; /* large padding to get menu item to protrude upwards */
+padding-bottom: 20px; /* large padding to get menu item to protrude downwards */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#reddy p#socialicons img{ /* 1st set of icons. Rotate them 360deg onmouseover and out */
+-moz-transition: all 0.8s ease-in-out;
+-webkit-transition: all 0.8s ease-in-out;
+-o-transition: all 0.8s ease-in-out;
+-ms-transition: all 0.8s ease-in-out;
+transition: all 0.8s ease-in-out;

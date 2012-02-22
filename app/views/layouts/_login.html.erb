@@ -1,0 +1,8 @@
+<% if session[:user_id] %>
+Welcome to :<% @user.name %>
+
+	<%= button_to 'Logout', logout_path, :method => :delete %>
+<% else %>
+<%= button_to 'Log in', login_path  %>
+	<% end %>
+

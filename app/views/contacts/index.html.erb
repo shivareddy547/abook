@@ -1,0 +1,17 @@
+
+
+<% if @contacts.blank? %>
+<p>There are not any contacts currently in the system.</p>
+<% else %>
+<h3>Listing Contacts</h1>
+<ul id="books">
+<% @contacts.each do |c| %>
+<li>
+<%= link_to c.first_name, {:action => "show", :id => c.id} -%>
+<b> <%= link_to 'Edit', {:action => "edit",:id => c.id} %></b>
+<%= link_to "Delete", {:action => 'destroy', :id => c.id},:confirm => "Are you sure you want to delete this item?" %></b>
+</li>
+<% end %>
+</ul>
+<% end %>
+<p><%= link_to "Add new Contact", {:action => 'new' }%></p>

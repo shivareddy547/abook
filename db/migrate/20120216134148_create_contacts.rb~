@@ -1,0 +1,23 @@
+class CreateContacts < ActiveRecord::Migration
+  def self.up
+    create_table :contacts do |t|
+    t.string :prefix
+      t.string :firstname
+      t.string :middlename
+      t.string :lastname
+      t.date :birthday
+      t.string :workphone
+      t.string :cellphone
+      t.string :email
+      t.string :website
+      t.integer :addressid
+ t.integer :profile_id
+      t.timestamps
+      t.timestamps
+    end
+  end
+
+  def self.down
+    drop_table :contacts
+  end
+end

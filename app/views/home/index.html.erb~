@@ -1,0 +1,42 @@
+<h3> Welcome to Address Book </h3>
+<p>We are one of the largest RoR development team in India serving clients around the globe with our quality service. If you are looking for a quick and easy way to transform your idea into a functional prototype, using RoR its potential of Agile Development methodology, Railsfactory is going to be your best bet.</p>
+
+<p>Over the years, we have specialized in the niche domain of RoR. Our constant focus and expertise in software development have made us the premier RoR consultant worldwide.</p>
+
+<p>If you are on the lookout for any of the following services, we are here to assist you.<p>
+
+    <h6>Web 2.0 - application development in Rails : Fixed cost & Time and Material</h6>
+    <h6>Dedicated hiring or Elastic staffing : Manage your own team of skilled RoR developers</h6>
+    <h6>Application Scalability Solutions through cloud computing clusters</h6>
+    <h6>Accelerate current application development with our expertise</h6>
+    <h6>Product Development under SAAS / hosted-solution model</h6>
+
+<h2>Note:</h2><strong><h3>To Enter Address book You  Should pay some amount($50) through Paypall Gateway</h3></strong>
+
+Pleace Click hear to pay: <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="JNW9HP8CT6QKL">
+<% if !session[:user_id] %>
+
+	
+<input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+<% end %>
+</form>
+
+
+
+
+
+
+
+
+<% if !session[:user_id] %>
+<%= link_to 'Click here to Login', login_path %>
+	<% end %>
+ 
+
+
+
+
+
